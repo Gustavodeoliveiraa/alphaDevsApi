@@ -5,8 +5,6 @@ from tag.serializer import TagSerializer
 
 
 class Model3dSerializer(serializers.ModelSerializer):
-    # product_fk_category = CategorySerializer()
-    # product_fk_tags = TagSerializer(many=True)
     
     class Meta:
         model = Model3D
